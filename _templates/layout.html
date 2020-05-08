@@ -1,0 +1,7 @@
+{% extends "!layout.html" %}
+{%- block sidebartoc %}
+{% if display_toc %}
+<h3>{{ _('Table of Contents') }}</h3>
+{{ toc }}
+{% endif %}
+{% endblock %}
