@@ -53,6 +53,10 @@ numfig = False
 # documentation'.
 html_title = 'reproduce'
 
+# The URL which points to the root of the HTML documentation. It is used to
+# indicate the location of document like canonical_url.
+html_baseurl = 'https://ntessore.github.io/reproduce/'
+
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
