@@ -87,6 +87,14 @@ html_static_path = ['_static']
 # <script> tag. It defaults to an empty list.
 html_js_files = ['links.js']
 
+# If true, the reST sources are included in the HTML build as _sources/name. The
+# default is True.
+html_copy_source = False
+
+# If true (and html_copy_source is true as well), links to the reST sources will
+# be added to the sidebar. The default is True.
+html_show_sourcelink = False
+
 
 # -- Options for LaTeX output ------------------------------------------------
 
