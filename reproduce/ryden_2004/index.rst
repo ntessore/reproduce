@@ -32,7 +32,7 @@ The Ellipticity of the Disks of Spiral Galaxies
 Figures
 -------
 
-.. _fig_1:
+.. _ryden_2004_fig_1:
 .. figure:: fig_1.*
    :width: 60%
 
@@ -47,6 +47,6 @@ Figures
 
    Source: :source:`reproduce/ryden_2004/fig_1.py`
 
-:ref:`fig_1` reproduced using :func:`skypy.galaxy.ellipticity.ryden04`. The
-selection follows everything specified in Section 2 but returns 12,953 galaxies
-in the *i*-band instead of the quoted 12,764 galaxies in the paper.
+:ref:`ryden_2004_fig_1` reproduced by :func:`skypy.galaxy.ellipticity.ryden04`.
+The selection follows everything specified in Section 2 but returns 12,953
+galaxies in the *i*-band instead of the quoted 12,764 galaxies in the paper.
