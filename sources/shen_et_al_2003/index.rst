@@ -1,4 +1,4 @@
-.. index:: Shen et al. (2004)
+.. index:: Shen et al. (2003)
 
 The size distribution of galaxies in the Sloan Digital Sky Survey
 =================================================================
