@@ -6,4 +6,4 @@ reproduce
    :hidden:
    :glob:
 
-   reproduce/**
+   sources/**

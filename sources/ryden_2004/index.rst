@@ -45,7 +45,7 @@ Figures
    disk ellipticity. The best-fitting model has thickness :math:`\gamma = 0.222
    \pm 0.057` and ellipticity :math:`\log\epsilon = -1.85 \pm 0.89`.
 
-   Source: :source:`reproduce/ryden_2004/fig_1.py`
+   Source: :source:`sources/ryden_2004/fig_1.py`
 
 :ref:`ryden_2004_fig_1` reproduced by :func:`skypy.galaxy.ellipticity.ryden04`.
 The selection follows everything specified in Section 2 but returns 12,953

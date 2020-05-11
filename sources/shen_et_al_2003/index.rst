@@ -53,7 +53,7 @@ Figures
    The distribution of galaxies with respect to some basic SDSS photometric
    quantities and the redshift. All histograms are normalized to unity.
 
-   Source: :source:`reproduce/shen_et_al_2003/fig_1.py`
+   Source: :source:`sources/shen_et_al_2003/fig_1.py`
 
 :ref:`shen_et_al_2003_fig_1` reproduced using SDSS DR2 data. No selection except
 that mentioned at the beginning of Section 2.3, and an additional check that a
