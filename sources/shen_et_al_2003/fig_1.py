@@ -130,5 +130,5 @@ ax[1, 1].yaxis.set_minor_locator(MultipleLocator(2))
 
 fig.subplots_adjust(wspace=0.55, hspace=0.55)
 
-fig.savefig('fig_1.pdf', bbox_inches='tight')
-fig.savefig('fig_1.svg', bbox_inches='tight')
+fig.savefig('shen_et_al_2003_fig_1.pdf', bbox_inches='tight')
+fig.savefig('shen_et_al_2003_fig_1.svg', bbox_inches='tight')

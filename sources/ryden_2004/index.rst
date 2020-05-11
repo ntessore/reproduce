@@ -33,7 +33,7 @@ Figures
 -------
 
 .. _ryden_2004_fig_1:
-.. figure:: fig_1.*
+.. figure:: ryden_2004_fig_1.*
    :width: 60%
 
    Ryden (2004), Fig. 1

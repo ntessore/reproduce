@@ -45,7 +45,7 @@ Figures
 -------
 
 .. _shen_et_al_2003_fig_1:
-.. figure:: fig_1.*
+.. figure:: shen_et_al_2003_fig_1.*
    :width: 60%
 
    Shen et al. (2003), Fig. 1
