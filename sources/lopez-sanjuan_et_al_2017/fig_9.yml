@@ -1,0 +1,23 @@
+cosmology: !astropy.cosmology.FlatLambdaCDM
+  Om0: 0.3
+  H0: 70.
+z_range: !numpy.arange [0, 1.01, 0.1]
+mag_lim: 30
+fsky: 5.7692866e-05
+M_star_B_SF: !astropy.modeling.models.Linear1D [-1.03, -20.485]
+phi_star_B_SF: !astropy.modeling.models.Exponential1D [0.00312608, -43.4294]
+alpha_SF: -1.29
+tables:
+  SF:
+    z: !skypy.galaxy.redshift.schechter_lf_redshift
+      redshift: $z_range
+      M_star: $M_star_B_SF
+      phi_star: $phi_star_B_SF
+      alpha: $alpha_SF
+      m_lim: $mag_lim
+      fsky: $fsky
+    M: !skypy.galaxy.luminosity.schechter_lf_magnitude
+      redshift: $SF.z
+      M_star: $M_star_B_SF
+      alpha: $alpha_SF
+      m_lim: $mag_lim
